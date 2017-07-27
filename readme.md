@@ -19,7 +19,7 @@ $ lsof -n -i4TCP:8081
 $ kill - 9 7601 // (or whichever one is listed)
 ```
 ```
-$ react-native-upgrade
+$ react-native upgrade
 ```
 
 ### The request was denied by service delegate (SBMainWorkspace) for reason: NotFound ("Application "com.myDomain.MyApp" is unknown to FrontBoard").
