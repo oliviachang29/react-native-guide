@@ -29,3 +29,11 @@ This error occurs when MyApp is deleted (manually) in the simulator.
 * Delete your local repo, clone it from the remote repo
 * Run `yarn / npm install`
 * `react-native run-ios`
+
+### Build Failed: PhaseScriptExecution Bundle\ React\ Native\ code\ and\ images build/Build/Intermediates/myApp.build/Debug-iphonesimulator/myApp.build/Script-00DD1BFF1BD5951E006B06BC.sh
+In Build Phases > Bundle React Native code and images > change `../node_modules/react-native/packager/react-native-xcode.sh` to `../node_modules/react-native/scripts/react-native-xcode.sh`
+
+In case you've initiated a project with react-native 0.46, and then downgraded react-native to 0.45, change in your `ios/${Project}.xcodeproj/project.pbxproj` next lines:
+* from `export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh`
+* to `export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh`
+https://github.com/facebook/react-native/issues/14935
