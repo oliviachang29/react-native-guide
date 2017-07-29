@@ -1,4 +1,5 @@
 # React Native: A Guide
+Contributions always welcome! I await your pull request. :D
 
 ### No bundle URL present
 Keep simulator and packager open
@@ -37,3 +38,6 @@ In case you've initiated a project with react-native 0.46, and then downgraded r
 * from `export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh`
 * to `export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh`
 https://github.com/facebook/react-native/issues/14935
+
+### Simulator getting a black screen
+Go to simulator - `Hardware > Erase all content and settings`
