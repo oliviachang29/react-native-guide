@@ -17,7 +17,7 @@ $ react-native run-ios/android
 There's an issue open in the react-native tracker [which has a bunch of suggestions.](https://github.com/facebook/react-native/issues/7308)
 ```
 $ lsof -n -i4TCP:8081
-$ kill - 9 7601 // (or whichever one is listed)
+$ kill - 9 YOUR_PID_HERE // (or whichever one is listed)
 ```
 ```
 $ react-native upgrade
