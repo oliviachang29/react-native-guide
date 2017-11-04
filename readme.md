@@ -9,7 +9,6 @@
 - [Simulator Problems](#simulator-problems)
 - [Credits](#credits)
 
----
 
 ## General Issues
 
@@ -33,7 +32,7 @@ Keep simulator and packager open
 $ yarn / npm install (sometimes necessary)
 $ react-native run-ios/android
 ```
----
+
 ## Build Fails
 
 #### PhaseScriptExecution Bundle\ React\ Native\ code\ and\ images build/Build/Intermediates/myApp.build/Debug-iphonesimulator/myApp.build/Script-00DD1BFF1BD5951E006B06BC.sh
@@ -54,7 +53,7 @@ Here on [some solutions on StackOverflow](https://stackoverflow.com/questions/37
 This error occurs when MyApp is deleted (manually) in the simulator.
 * Delete ios/build folder
 * `$ react-native run-ios`
----
+
 ## Simulator Problems
 
 #### Simulator shows blank screen
@@ -68,7 +67,7 @@ $ react-native run-ios/android
 #### Simulator getting a black screen
 Go to simulator - `Hardware > Erase all content and settings`
 
----
+
 ## Credits
 
 This repository is maintained by [oliviachang29](https://github.com/oliviachang29). Contributions always welcome!
