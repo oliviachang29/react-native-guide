@@ -1,4 +1,5 @@
-# React Native: A Guide
+![react-native-guide](./logo.png?raw=true "react-native-guide")
+
 Contributions always welcome!
 
 ## Table of contents
