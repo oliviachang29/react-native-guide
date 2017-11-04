@@ -11,7 +11,7 @@ Contributions always welcome!
 ## General Issues
 
 #### Print: Entry, ":CFBundleIdentifier", Does Not Exist
-There's an issue open in the react-native tracker [which has a bunch of suggestions.](https://github.com/facebook/react-native/issues/7308)
+
 ```
 $ lsof -n -i4TCP:8081
 $ kill - 9 YOUR_PID_HERE // (or whichever one is listed)
@@ -19,6 +19,8 @@ $ kill - 9 YOUR_PID_HERE // (or whichever one is listed)
 ```
 $ react-native upgrade
 ```
+
+**Credit**: There's an issue open in the react-native tracker [which has a bunch of suggestions.](https://github.com/facebook/react-native/issues/7308)
 
 ---
 
@@ -54,7 +56,9 @@ In Build Phases > Bundle React Native code and images > change `../node_modules/
 In case you've initiated a project with react-native 0.46, and then downgraded react-native to 0.45, change in your `ios/${Project}.xcodeproj/project.pbxproj` next lines:
 * from `export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh`
 * to `export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh`
-https://github.com/facebook/react-native/issues/14935
+
+
+**Credit**: https://github.com/facebook/react-native/issues/14935
 
 ---
 
