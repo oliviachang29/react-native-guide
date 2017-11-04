@@ -4,6 +4,7 @@ Contributions always welcome!
 ## Table of contents
 - [General Issues](#general-issues)
 - [Build fails](#build-fails)
+- [Simulator Problems](#simulator-problems)
 - [Credits](#credits)
 
 ---
@@ -30,22 +31,6 @@ Keep simulator and packager open
 $ yarn / npm install (sometimes necessary)
 $ react-native run-ios/android
 ```
----
-
-#### Simulator shows blank screen
-
-Keep simulator and packager open.
-```
-$ react-native run-ios/android
-```
-
----
-
-#### Simulator getting a black screen
-Go to simulator - `Hardware > Erase all content and settings`
-
-
----
 
 ## Build Fails
 
@@ -68,6 +53,20 @@ This error occurs when MyApp is deleted (manually) in the simulator.
 * Delete ios/build folder
 * `$ react-native run-ios`
 
+## Simulator Problems
+
+#### Simulator shows blank screen
+
+Keep simulator and packager open.
+```
+$ react-native run-ios/android
+```
+---
+
+#### Simulator getting a black screen
+Go to simulator - `Hardware > Erase all content and settings`
+
+---
 ## Credits
 
 This repository is maintained by [oliviachang29](https://github.com/oliviachang29). 
