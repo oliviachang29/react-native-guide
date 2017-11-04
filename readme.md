@@ -28,7 +28,7 @@ $ kill - 9 YOUR_PID_HERE // (or whichever one is listed)
 $ react-native upgrade
 ```
 
-### Build Failed: 
+## Build Fails: 
 **PhaseScriptExecution Bundle\ React\ Native\ code\ and\ images build/Build/Intermediates/myApp.build/Debug-iphonesimulator/myApp.build/Script-00DD1BFF1BD5951E006B06BC.sh**
 
 In Build Phases > Bundle React Native code and images > change `../node_modules/react-native/packager/react-native-xcode.sh` to `../node_modules/react-native/scripts/react-native-xcode.sh`
@@ -38,7 +38,7 @@ In case you've initiated a project with react-native 0.46, and then downgraded r
 * to `export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh`
 https://github.com/facebook/react-native/issues/14935
 
-### The request was denied by service delegate (SBMainWorkspace) for reason: NotFound ("Application "com.myDomain.MyApp" is unknown to FrontBoard").
+**The request was denied by service delegate (SBMainWorkspace) for reason: NotFound ("Application "com.myDomain.MyApp" is unknown to FrontBoard").**
 Here on [some solutions on StackOverflow](https://stackoverflow.com/questions/37939749/xcode-8-messages-template-application-error-on-ios-simulator). 
 This error occurs when MyApp is deleted (manually) in the simulator.
 * Delete ios/build folder
