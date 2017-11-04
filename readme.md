@@ -1,5 +1,4 @@
-![react-native-guide](./logo-no-bg.png?raw=true "react-native-guide")
-
+<img src="https://github.com/oliviachang29/react-native-guide/blob/master/logo-no-bg.png" alt="react-native-guide" width="500">
 
 
 
