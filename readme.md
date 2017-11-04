@@ -1,6 +1,8 @@
 ![react-native-guide](./logo-no-bg.png?raw=true "react-native-guide")
 
-Contributions always welcome!
+
+
+
 
 ## Table of contents
 - [General Issues](#general-issues)
@@ -70,4 +72,4 @@ Go to simulator - `Hardware > Erase all content and settings`
 ---
 ## Credits
 
-This repository is maintained by [oliviachang29](https://github.com/oliviachang29). 
+This repository is maintained by [oliviachang29](https://github.com/oliviachang29). Contributions always welcome!
