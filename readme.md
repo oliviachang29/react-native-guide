@@ -1,4 +1,4 @@
-![react-native-guide](./logo.png?raw=true "react-native-guide")
+![react-native-guide](./logo-no-bg.png?raw=true "react-native-guide")
 
 Contributions always welcome!
 
