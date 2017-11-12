@@ -1,6 +1,6 @@
 <img src="https://github.com/oliviachang29/react-native-guide/blob/master/logo.png" alt="react-native-guide" width="500">
 
-
+## Update: react-native-guide has migrated to [react.coach](https://react.coach).
 
 
 ## Table of contents
